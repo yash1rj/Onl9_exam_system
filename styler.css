@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	background-color:#ffb3b3;
+	margin:10px;
+}
+
+.navbar > ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #b3b3b3;
+}
+
+.navbar li {
+	float:left;
+}
+
+.navbar a {
+	display:block;
+	color:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+}
+
+header > img {
+	padding:10px;
+}
+
+.active {
+	color:white;
+	background-color:#ff6600;
+}	
+
+.navbar a:hover {
+	color:white;
+	background-color:#111;
+}
+
+.navbar::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.mnc {
+	float:left;
+	width:70%;
+}
+
+.mnc a {
+	color:#e65c00;
+}
+
+.mnc article {
+	border:1px solid black;
+	background-color:white;
+	margin:5px;
+	margin-bottom:15px;
+	padding:20px;
+}
+
+.aside {
+	float:left;
+	padding:10px;
+}
+
+.sides	 {
+	border:1px solid black;
+	background-color:white;
+	margin-left:70%;
+	margin-top:5px;
+	margin-bottom:9px;
+	padding:10px;
+}	
+
+body > footer {
+	background-color:#b3b3b3;
+	margin:auto;
+	padding:2px;
+	width:100%;
+}
+
+body > footer a {
+	color:#e65c00;
+}
+
+.pfooter {
+	color:#cccccc;
+	font-style:italic;
+}
+
+.regf {
+	text-align:center;
+}
+
+.regf input[type="text"]:nth-child(even) {
+	background-color:green;
+}
+
+.regf input[type="text"]:nth-child(odd) {
+	background-color:orange;
+}
+
+.regf input[value="Reset"] {
+	background-color:yellow;
+}	
